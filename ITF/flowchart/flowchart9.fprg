@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="scott"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-02 09:59:35 PM"/>
+        <attribute name="created" value="c2NvdHQ7REVTS1RPUC1MUDFMMERKOzIwMjMtMDMtMDI7MDk6NDU6NDEgUE07Mjg5MA=="/>
+        <attribute name="edited" value="c2NvdHQ7REVTS1RPUC1MUDFMMERKOzIwMjMtMDMtMDI7MDk6NTk6MzUgUE07MTszMDA2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi, i" type="Integer" array="False" size=""/>
+            <declare name="fakt" type="Real" array="False" size=""/>
+            <output expression="&quot;L&#252;tfen 1 say&#305; giriniz&quot;" newline="True"/>
+            <input variable="sayi"/>
+            <assign variable="fakt" expression="1"/>
+            <for variable="i" start="sayi" end="1" direction="dec" step="1">
+                <assign variable="fakt" expression="fakt * i"/>
+            </for>
+            <output expression="&quot;Sonu&#231;=&quot; &amp; fakt" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

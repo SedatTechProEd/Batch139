@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="scott"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-01 11:32:05 PM"/>
+        <attribute name="created" value="c2NvdHQ7REVTS1RPUC1MUDFMMERKOzIwMjMtMDMtMDE7MTE6MDc6NTQgUE07Mjg4NA=="/>
+        <attribute name="edited" value="c2NvdHQ7REVTS1RPUC1MUDFMMERKOzIwMjMtMDMtMDE7MTE6MzI6MDUgUE07MzsyOTg4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s1, s2, s3" type="Integer" array="False" size=""/>
+            <output expression="&quot;3 adet say&#305; giriniz&quot;" newline="True"/>
+            <input variable="s1"/>
+            <input variable="s2"/>
+            <input variable="s3"/>
+            <if expression="s1&gt;s2 &amp;&amp; s1&gt;s3">
+                <then>
+                    <output expression="s1 &amp; &quot; en b&#252;y&#252;k say&#305;&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="s2&gt;s3">
+                        <then>
+                            <output expression="s2 &amp; &quot; en b&#252;y&#252;k say&#305;&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="s3 &amp; &quot; en b&#252;y&#252;k say&#305;&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

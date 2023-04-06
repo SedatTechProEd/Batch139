@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="scott"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-01 09:58:49 PM"/>
+        <attribute name="created" value="c2NvdHQ7REVTS1RPUC1MUDFMMERKOzIwMjMtMDMtMDE7MDk6MzY6MTMgUE07Mjg4OA=="/>
+        <attribute name="edited" value="c2NvdHQ7REVTS1RPUC1MUDFMMERKOzIwMjMtMDMtMDE7MDk6NTg6NDkgUE07MTszMDA5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi1, sayi2, sayi3, ort" type="Real" array="False" size=""/>
+            <output expression="&quot;1. say&#305;y&#305; giriniz&quot;" newline="True"/>
+            <input variable="sayi1"/>
+            <output expression="&quot;2. say&#305;y&#305; giriniz&quot;" newline="True"/>
+            <input variable="sayi2"/>
+            <output expression="&quot;3.say&#305;y&#305; giriniz&quot;" newline="True"/>
+            <input variable="sayi3"/>
+            <assign variable="ort" expression="(sayi1 + sayi2 + sayi3) / 3"/>
+            <output expression="&quot;Say&#305;lar&#305;n ortalamas&#305;=&quot; &amp; ort" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="scott"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-03-02 09:37:50 PM"/>
+        <attribute name="created" value="c2NvdHQ7REVTS1RPUC1MUDFMMERKOzIwMjMtMDMtMDI7MDk6MDQ6MjYgUE07Mjg4OA=="/>
+        <attribute name="edited" value="c2NvdHQ7REVTS1RPUC1MUDFMMERKOzIwMjMtMDMtMDI7MDk6Mzc6NTAgUE07MTsyOTk5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <declare name="puan, toplam, ort" type="Real" array="False" size=""/>
+            <assign variable="toplam" expression="0"/>
+            <for variable="i" start="1" end="20" direction="inc" step="1">
+                <output expression="i &amp; &quot;. &#246;&#287;rencinin notunu girin&quot;" newline="True"/>
+                <input variable="puan"/>
+                <assign variable="toplam" expression="toplam + puan"/>
+            </for>
+            <assign variable="ort" expression="toplam / (i - 1)"/>
+            <output expression="&quot;Sonu&#231;=&quot; &amp; ort" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
