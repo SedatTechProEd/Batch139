@@ -1,0 +1,20 @@
+.title1{
+    font-size: 5rem;
+    color:aliceblue;
+    text-shadow: 0 0 2px black;
+}
+
+.title2{
+    font-size: 5rem;
+    color:aliceblue;
+    text-shadow: 0 0 2px black, 5px 5px 15px red;
+}
+
+.title3{
+    font-size: 5rem;
+    color:rgb(53, 133, 203);
+    box-shadow: 5px 3px 10px greenyellow;
+    display: inline-block;
+    padding:10px;
+}
+

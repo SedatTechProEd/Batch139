@@ -1,0 +1,25 @@
+*{
+    color:cornflowerblue;
+}
+
+
+.highlight{
+    font-size: 1.2rem;
+    color:blue;
+}
+
+.center{
+    text-align: center;
+}
+
+h1.center{
+    background-color:indigo
+}
+
+#p1{
+    text-align: justify;
+}
+
+.span1{
+    color: crimson;
+}
