@@ -1,0 +1,65 @@
+Uygulama 1
+
+Disney
+Mickey Mouse
+Donald Duck
+
+Hanna-Barbera
+Tom and Jerry
+Scooby-Doo
+Taş Devri
+
+Warner Bros
+Bugs Bunny
+Tweety Bird
+Daffy Duck
+Speedy Gonzales
+
+TRT Çocuk
+Rafadan Tayfa
+Bulmaca Kulesi
+
+Pokemon
+Pikachu
+Bulbasaur
+
+-------------------
+Uygulama 2
+
+Web Teknolojileri
+HTML
+Temel yapı taşları
+Biçimlendirme tagları
+Listeleme tagları
+Bağlantı tagları
+CSS
+Tasarım kuralları
+Renkler ve arka planlar
+Metin biçimlendirme
+JavaScript
+Temel yapı taşları
+Kontrol yapıları
+Fonksiyonlar
+Bağlantı Tagları
+Bağlantı tagları, bir web sayfasında farklı sayfalara veya web sitelerine bağlantı sağlamak için kullanılır. Örneğin:
+
+Google
+TechProEducation YouTube
+Replit Odevler
+Metin Biçimlendirme Tagları
+Metin biçimlendirme tagları, web sayfalarında metinleri biçimlendirmek için kullanılır. Örneğin:
+
+Kırmızı renkli metin
+İtalik metin
+İtalik metin
+Kalın metin
+Kalın metin
+Üzeri çizili metin
+İşaretlenmiş metin
+Altı Çizili metin
+Sayfa Başı
+
+
+https://www.google.com	Google
+https://www.youtube.com/@TechProEducation/featured 	TechProEducation YouTube
+https://replit.com/@frontenddevs	Replit Odevler

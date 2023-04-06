@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SSG Ornek 4 - Form Örneği</title>
+  </head>
+  <body>
+    <h1>Contact Us</h1>
+    <form action="">
+      <table>
+        <tr>
+          <td><label for="name">Name:</label></td>
+          <td>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter Your Name"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="lastname">Lastname:</label></td>
+          <td>
+            <input
+              type="text"
+              name="lastname"
+              id="lastname"
+              placeholder="Enter Your Lastname"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="email">E-Mail:</label></td>
+          <td>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="name@techproed.com"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="password">Password:</label></td>
+          <td><input type="password" name="password" id="password" /></td>
+        </tr>
+        <tr>
+          <td><label for="gender">Gender:</label></td>
+          <td>
+            <input type="radio" name="gender" id="male" />
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" />
+            <label for="female">Female</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="interests">Interests:</label></td>
+          <td>
+            <input type="checkbox" name="programing" id="programing" />
+            <label for="programing">Programing</label><br />
+
+            <input type="checkbox" name="reading" id="reading" />
+            <label for="reading">Reading</label><br />
+
+            <input type="checkbox" name="sports" id="sports" />
+            <label for="sports">Sports</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="yourbatch">Your Batch:</label></td>
+          <td>
+            <select id="yourbatch" name="yourbatch">
+              <option value="" selected disabled >Batch</option>    
+              <option value="B104" >B-104</option>    
+              <option value="B105" >B-105</option>    
+              <option value="B139" >B-139</option>    
+              <option value="B147" >B-147</option>    
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="message">Message:</label></td>
+          <td>
+            <textarea name="message" id="message" cols="21" rows="7"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input type="submit" value="Submit">
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
