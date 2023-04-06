@@ -1,0 +1,46 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(../img/resim4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.baslik{
+    text-align: center;
+    font-size: 3rem;
+    background-color: azure;
+    margin-top: 4rem;
+    margin:0.5rem
+}
+
+.aylar{
+    display: inline-block;
+    background-color:rgb(193, 135, 222);
+    width: 20%; 
+    margin-bottom: 5rem;
+    margin-left: 3rem;
+}
+
+div h2{
+    background-color: azure;
+    text-align: center;
+    margin: 0;
+    
+}
+
+div.mevsimler{
+    display: inline-block;
+    background-color: rgb(219, 222, 135);
+    width: 20%;
+    margin-bottom: 5rem; 
+    margin-left: 3rem;
+}
+
+.gunler{
+    display: inline-block;
+    background-color: rgb(135, 222, 210);
+    width: 20%; 
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
