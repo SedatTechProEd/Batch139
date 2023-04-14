@@ -1,0 +1,3 @@
+Bu alanda yapan öğrencimizin izniyle yaptıkları ve diğer öğrencilerimize örnek olabilecek çalışmaları yayınlayacağız.
+HTML örnekleri, CSS çalışmaları gibi. 
+Not: Ticari ve profesyonel yapılmış projeleri koymayacağız. Eğer öğrenci isterse sadece site adresini link olarak veririz.  
