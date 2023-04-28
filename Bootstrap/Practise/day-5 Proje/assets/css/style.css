@@ -1,0 +1,41 @@
+:root {
+    --color1: #ebb211;
+    --color2: #04d5fa;
+    --color3: rgb(0, 0, 0);
+    --color4: rgb(118, 28, 28);
+}
+
+a {
+    text-decoration: none;
+    color: var(--color3);
+}
+
+.topbar {
+    background-color: var(--color1);
+
+}
+
+.topbar .contact-info a i {
+    color: var(--color2);
+    font-size: 1.1rem;
+}
+
+.topbar .social-links a i {
+    color: var(--color2);
+    font-size: 1.8rem;
+}
+.navbar-brand img{
+    width:400px;
+}
+.nav-item a{
+    font-size: 1.5rem;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+}
+.nav-item a:hover{
+    background-color: var(--color1);
+    color: var(--color2);
+}

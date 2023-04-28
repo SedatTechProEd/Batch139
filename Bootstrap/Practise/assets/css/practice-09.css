@@ -1,0 +1,47 @@
+      .navbar .container-fluid .navbar-brand img {
+          height: 50px;
+          width: auto;
+      }
+
+      .nav-link {
+          width: 50px;
+          height: 50px;
+          background-color: #41a34e;
+          border-radius: 50%;
+          margin-right: 20px;
+      }
+
+      .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item:last-child .nav-link {
+          background-color: #7e57c2;
+          width: 58px;
+          height: 58px;
+      }
+
+      .carousel-item{
+        height: 90vh;
+      }
+      .carousel-item img{
+        height: 90vh;
+      }
+      .footer{
+        background-color: black;
+        color: rgb(151, 146, 146);
+      }
+      .features div.row div {
+        margin-bottom: 1rem;;
+      }
+      div.footer div.row div .social-icons a {
+        color: white;
+      }
+      div.footer div.row div .quick-links li a {
+        color: rgb(151, 146, 146);
+      }
+      div.footer div.row div .contact-link li a {
+        color: rgb(151, 146, 146);
+      }
+      div.footer div.row div .contact-link li i {
+        color: #42db0c;
+      }
+      div.footer div.row div .contact-link li {
+        margin-bottom: 0.8rem;
+      }

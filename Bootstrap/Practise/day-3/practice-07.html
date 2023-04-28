@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Practice 07</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+    <style>
+      .card {
+        position: relative;
+      }
+      div.card img {
+        height: 200px;
+      }
+      .card span.para {
+        position: absolute;
+        right: 10px;
+        top: 150px;
+      }
+      @media screen and (max-width: 768px) {
+        div.card img {
+          height: auto;
+        }
+        .card span.para {
+          position: absolute;
+          left: 10px;
+          top: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid mt-2">
+      <div class="row mx-1">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card mb-2">
+            <img
+              src="../assets/img/car-01.jpg"
+              class="card-img-top img-fluid"
+            />
+            <span class="para text-light fs-2 fw-bold">$20000</span>
+            <div class="card-body">
+              <h5 class="card-title">FIAT EGEA</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <div class="text-success fw-semibold">
+                <ul class="list list-unstyled row d-flex">
+                  <li class="col-6">
+                    <i class="bi bi-fuel-pump-diesel"></i> Dizel
+                  </li>
+                  <li class="col-6">
+                    <i class="bi bi-gear-wide-connected"></i> Düz
+                  </li>
+                  <li class="col-6">
+                    <i class="bi bi-car-front-fill"></i> Sedan
+                  </li>
+                  <li class="col-6"><i class="bi bi-snow3"></i> Klimalı</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card mb-2">
+            <img
+              src="../assets/img/car-02.jpg"
+              class="card-img-top img-fluid"
+            />
+            <span class="para text-light fs-2 fw-bold">$30000</span>
+            <div class="card-body">
+              <h5 class="card-title">TOYOTA C-HR</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <div class="text-success fw-semibold">
+                <ul class="list list-unstyled row d-flex">
+                  <li class="col-6">
+                    <i class="bi bi-fuel-pump"></i> Benzinli
+                  </li>
+                  <li class="col-6">
+                    <i class="bi bi-gear-wide-connected"></i> Otomatik
+                  </li>
+                  <li class="col-6">
+                    <i class="bi bi-car-front-fill"></i> Hatchback
+                  </li>
+                  <li class="col-6"><i class="bi bi-snow"></i> Klimalı</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card mb-2">
+            <img
+              src="../assets/img/car-03.jpg"
+              class="card-img-top img-fluid"
+            />
+            <span class="para text-light fs-2 fw-bold">$30000</span>
+            <div class="card-body">
+              <h5 class="card-title">HONDA</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <div class="text-success fw-semibold">
+                <ul class="list list-unstyled row d-flex">
+                  <li class="col-6">
+                    <i class="bi bi-fuel-pump-diesel"></i> Dizel
+                  </li>
+                  <li class="col-6">
+                    <i class="bi bi-gear-wide-connected"></i> Düz
+                  </li>
+                  <li class="col-6">
+                    <i class="bi bi-car-front-fill"></i> Sedan
+                  </li>
+                  <li class="col-6"><i class="bi bi-snow"></i> Klimalı</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card mb-2">
+            <img
+              src="../assets/img/car-04.jpg"
+              class="card-img-top img-fluid"
+            /><span class="para text-light fs-2 fw-bold">$50000</span>
+            <div class="card-body">
+              <h5 class="card-title">TOGG</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <div class="text-success fw-semibold">
+                <ul class="list list-unstyled row d-flex">
+                  <li class="col-6">
+                    <i class="bi bi-ev-station"></i> Elektrikli
+                  </li>
+                  <li class="col-6">
+                    <i class="bi bi-gear-wide-connected"></i> Otomatik
+                  </li>
+                  <li class="col-6">
+                    <i class="bi bi-car-front-fill"></i> Hatchback
+                  </li>
+                  <li class="col-6"><i class="bi bi-snow"></i> Klimalı</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
