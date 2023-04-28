@@ -1,0 +1,38 @@
+#guc {
+    color: red;
+}
+
+#zayif {
+    color: green;
+}
+
+p {
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#guc+ul li {
+    list-style-type: none;
+}
+
+#zayif+ul li:hover {
+    color: red;
+    background-color: rgb(52, 52, 15);
+}
+
+#zayif+ul li {
+    list-style-type: none;
+}
+
+#zayif+ul li:before {
+    content: "\f008";
+    font: var(--fa-font-solid);
+}
+
+.paraf+ul li:nth-child(2n) {
+    color: aqua;
+    background-color: black;
+}
