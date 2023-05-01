@@ -1,8 +1,10 @@
 :root {
     --color1: #ebb211;
     --color2: #04d5fa;
-    --color3: rgb(0, 0, 0);
-    --color4: rgb(118, 28, 28);
+    --color3: #000000;
+    --color4: #ffffff;
+    --color5: #ce1465;
+    --color6: #a4a1a1;
 }
 
 a {
@@ -12,7 +14,6 @@ a {
 
 .topbar {
     background-color: var(--color1);
-
 }
 
 .topbar .contact-info a i {
@@ -24,18 +25,114 @@ a {
     color: var(--color2);
     font-size: 1.8rem;
 }
-.navbar-brand img{
-    width:400px;
+
+.navbar-brand img {
+    width: 400px;
 }
-.nav-item a{
+
+.nav-item a {
     font-size: 1.5rem;
-    border-radius:20px;
-    -webkit-border-radius:20px;
-    -moz-border-radius:20px;
-    -ms-border-radius:20px;
-    -o-border-radius:20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
-.nav-item a:hover{
+
+.nav-item a:hover {
     background-color: var(--color1);
     color: var(--color2);
+}
+
+.carousel .carousel-inner .carousel-item {
+    position: relative;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-caption {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    color: var(--color3);
+}
+
+.carousel .carousel-inner .carousel-item .carousel-caption h5 {
+    font-size: 2.5rem;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-caption p {
+    font-size: 1.1rem;
+}
+
+section.why-us {
+    position: relative;
+    top: -80px;
+    z-index: 2;
+}
+
+section.why-us div.row div[class^="col"]:first-child div.card {
+    background-color: var(--color1);
+}
+
+section.why-us div.row div[class^="col"] div.card div.card-body i {
+    color: var(--color5);
+    font-size: 3.2rem;
+}
+
+section.why-us div.row div[class^="col"] div.card div.card-body h5 {
+    font-size: 2rem;
+}
+
+div.views div.row div[class^="col"] div.card div.card-body h5 {
+    font-size: 5rem;
+    color: var(--color1);
+}
+
+div.views div.row div[class^="col"] div.card div.card-body i {
+    font-size: 3rem;
+    color: var(--color2);
+}
+
+div.gallery div.row div[class^="col"] {
+    overflow: hidden;
+}
+
+div.gallery div.row div[class^="col"] img {
+    transition: transform 0.6s;
+    -webkit-transition: transform 0.6s;
+    -moz-transition: transform 0.6s;
+    -ms-transition: transform 0.6s;
+    -o-transition: transform 0.6s;
+}
+
+div.gallery div.row div[class^="col"] img:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+div.appointment-form {
+    background-color: var(--color6);
+}
+
+footer .container .row div[class^="col"] h5 {
+    font-size: 2rem;
+    color: var(--color5);
+}
+
+footer .container .row div[class^="col"] p {
+    font-size: 1.1rem;
+}
+
+footer .container .row div[class^="col"] i {
+    color: var(--color5);
+}
+
+footer {
+    background-color: var(--color1);
+}
+
+.contact-footer ul li {
+    display: flex;
 }
