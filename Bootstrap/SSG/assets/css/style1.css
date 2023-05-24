@@ -1,0 +1,41 @@
+.social {
+    color: #302579;
+
+}
+
+.social a {
+    color: #302579;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+#carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption h5 {
+    color: red;
+    font-size: 2rem;
+}
+
+#carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption p {
+    color: red;
+    font-size: 1.5rem;
+}
+
+main div.container div.row div[class^="col"] div.card img {
+    width: 150px;
+    height: auto;
+}
+
+footer{
+    background-color: #dde7e7;
+}
+#cizgi{
+    border-right: 1px solid black;
+}
+#cizgi a,
+#footsosyal a{
+   text-decoration: none;
+   color:#12098b;
+   font-weight: 500;
+}
